@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="cont-form">
+        <div class="wrap">
+            <form action="" class="form" name="registrationForm" method="POST">
+                <div class="contImageConfig">
+                    <div class="profileImage">
+                        <img src="img/imgUser.png" alt="">
+                    </div>
+                    <a href="" class="changeImage">
+                        <div >
+                            <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="inputGroup">
+                        <input type="text" id="name" name="name">
+                        <label class="labels" for="name">Name</label>
+                    </div>
+                    <div class="inputGroup">
+                        <input type="text" id="lastName" name="lastName">
+                        <label class="labels" for="lastName">Last Name</label>
+                    </div>
+                    <div class="inputGroup">
+                        <input type="email" id="e-mail" name="e-mail">
+                        <label class="labels" for="e-mail">E-mail</label>
+                    </div>
+                    <div class="inputGroup">
+                        <input type="text" id="phone" name="phone">
+                        <label class="labels" for="phone">Phone Number</label>
+                    </div>
+                    <a class="changePassword">Cambiar Contraseña</a>
+                    <div class="passGroup pass">
+                        <div class="inputGroup">
+                            <input type="password" id="password" name="password">
+                            <label class="labels" for="password"> Old Password</label>
+                        </div>
+                        <div class="inputGroup" >
+                            <input type="password" id="password" name="password">
+                            <label class="labels" for="password"> New Password</label>
+                        </div>
+                        <div class="inputGroup" >
+                            <input type="password" id="password" name="password">
+                            <label class="labels" for="password"> Repeat New Password</label>
+                        </div>
+                    </div>
+                    <div class="contButton">
+                        <button type="button" class="btn btn-lg btn-left" id="btn">
+                            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="btn  btn-lg btn-right" id="btn">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
